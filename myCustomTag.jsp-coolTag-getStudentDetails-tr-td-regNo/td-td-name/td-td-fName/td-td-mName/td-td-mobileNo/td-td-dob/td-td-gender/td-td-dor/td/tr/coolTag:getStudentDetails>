@@ -1,3 +1,15 @@
+  
+           <select name="studentClass" >
+                    <c:forEach begin="1" end="12" varStatus="status">
+                        
+                        <option value="${status.index}">${status.index}</option>
+                        <!--a href="#customTag">${status.index}</a!-->
+                        
+                    </c:forEach>
+                          </select>      
+                        <input type="submit" >
+                        
+                        
  <coolTag:getStudentDetails >
                     <tr>
                         <td>${regNo}</td>
