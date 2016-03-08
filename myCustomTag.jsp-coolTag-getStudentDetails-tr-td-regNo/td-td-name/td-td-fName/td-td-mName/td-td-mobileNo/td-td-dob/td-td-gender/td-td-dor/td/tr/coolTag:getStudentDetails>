@@ -1,0 +1,12 @@
+ <coolTag:getStudentDetails >
+                    <tr>
+                        <td>${regNo}</td>
+                        <td>${name}</td>
+                        <td>${fName}</td>
+                        <td>${mName}</td>
+                        <td>${mobileNo}</td>
+                        <td>${dob}</td>
+                        <td>${gender}</td>
+                        <td>${dor}</td>
+                    </tr>
+                </coolTag:getStudentDetails>
